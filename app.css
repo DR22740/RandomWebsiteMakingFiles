@@ -1,0 +1,21 @@
+h1{
+    color: #FF8000  ;
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+}
+li{
+    color: rgb(240, 10, 100);
+}
+
+h4{
+    color: rgba(100, 10, 100, .5);
+    background: rgb(255, 100, 80);
+    border: solid purple 5px;
+
+}
+
+body{background:pink;
+background-repeat: no-repeat;
+background-size: cover;}
+

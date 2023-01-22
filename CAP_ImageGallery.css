@@ -1,0 +1,21 @@
+
+
+img{
+    width: 28%;
+    margin: 2.5%;
+    transition: 0.5s ease-in-out;;
+}
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid #acacac;
+    width: 40%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    display: inline-block;
+
+}
+img:hover{
+    margin: 0%;
+    width: 33%;
+
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Registration Quiz </title>
+</head>
+<body>  
+    <h1>Register</h1>
+
+<form>
+<div>
+    <p>Type in your first and last names:  </p>
+    <label  for="firstNameId">First Name:</label>
+    <input  id="firstNameId" type="text" placeholder="first name" required>
+    <label  for="secondNameId">Last Name:</label>
+    <input  id="secondNameId" type="text"  required>
+</div>
+<div>
+    <p>Select your gender:</p>
+    <label  for="maleId">Male:</label>
+    <input  value="male"name="GenderSelection"  id="maleId" type="radio"  required>
+    <label  for="femaleId">Female:</label>
+    <input  value="female" name="GenderSelection"  id="femaleId" type="radio" required>
+    <label  for="otherId">Other:</label>
+    <input   value="other"   name="GenderSelection"  id="otherId" type="radio"  required>
+</div>
+<div>
+    <p>Please type in your Email address and password here:</p>
+    <label for="emailId">Email: </label>
+    <input id="emailId" type="email" required>
+    <label for="passwordId">Password: </label>
+    <input id="passwordId" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+    
+</div>
+
+<div>
+    <p>select you birth date:</p>
+    <label class="Age">Birthday:</label>
+    <select class="Age" name="Month" required>
+    <option value="">Month</option>
+    <option value="Jan">Jan</option>
+    <option value="Feb">Feb</option>
+    <option value="Mar">Mar</option>
+    <option value="Apr">Apr</option>
+    <option value="May">May</option>
+    </select>
+    <select class="Age" name="Day" required>
+    <option value="">Day</option>
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+    <option value="07">07</option>
+    <option value="08">08</option>
+    <option value="09">09</option>
+    </select>
+    <select class="Age" name="Year" required> 
+    <option value="">Year</option>
+    <option value="1996">1996</option>
+    <option value="1997">1997</option>
+    <option value="1998">1998</option>
+    <option value="1999">1999</option>
+    <option value="2000">2000</option>
+    </select>
+</div>
+<div>
+    <label for="chekboxId">Do you accept user agreement?</label>
+    <input value="Terms Applied" id="chekboxId" type="checkbox" required>
+</div>
+<button>Submit all</button>
+</form>
+</body>
+</html>
